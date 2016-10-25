@@ -9,6 +9,11 @@ The formula should in principle haven been applied without the statement
 
 y=y%400
 
-But the key is, that if y were changed by a multiple of 400 this formula's result changes by an integer multiple of 497 which in turn is a multiple of 7, giving the same day of the week!
+But the key is, that if y were changed by a multiple of 400 this formula's result changes by an integer multiple of 497 which in turn is a multiple of 7, giving the same day of the week! Thus we apply the formula without it!
 
-This formula is based on the designation 0 mod 7 = Saturday, 1 mod 7 = Sunday, ... 6 mod 7 = Friday
+This formula is based on the designation
+
+0 mod 7 = Saturday
+1 mod 7 = Sunday
+...
+6 mod 7 = Friday
