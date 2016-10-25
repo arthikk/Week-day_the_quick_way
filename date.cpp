@@ -11,8 +11,8 @@ main()
  cin>>y>>m>>d;
  y=y%400;
  day=3*(int)((9*m-8)/10)-(int)(abs(2*m-4)/5);
- day=day+(int)(5*y/4)-(int)(y/100)+(int)(y/400);
- day=day-(((y%4==1)?1:0)-((y%100==1)?1:0)+((y%400==1)?1:0))*((m<3)?1:0);
+ day=day+(int)(5*y/4)-(int)(y/100);
+ day=day-(((y%4==0)?1:0)-((y%100==0)?1:0)+((y==0)?1:0))*((m<3)?1:0);
  day=day+d;
  day=day%7;
  cout<<"The date falls on a "<<a[day]; 
