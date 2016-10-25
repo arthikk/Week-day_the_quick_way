@@ -9,6 +9,7 @@ main()
   char a[7]={"Saturday","Sunday","Monday","Tuesday","Wednesday","Thursday","Friday"}
  cout<<"Enter year, month, date separated by spaces";
  cin>>y>>m>>d;
+ y=y%400;
  day=3*(int)((9*m-8)/10)-(int)(abs(2*m-4)/5);
  day=day+(int)(5*y/4)-(int)(y/100)+(int)(y/400);
  day=day-(((y%4==1)?1:0)-((y%100==1)?1:0)+((y%400==1)?1:0))*((m<3)?1:0);
