@@ -13,7 +13,7 @@ But the key is, that if y were changed by a multiple of 400 this formula's resul
 
 This formula is based on the designation
 
-0 mod 7 = Saturday
-1 mod 7 = Sunday
-...
+0 mod 7 = Saturday<br>
+1 mod 7 = Sunday<br>
+...<br>
 6 mod 7 = Friday
