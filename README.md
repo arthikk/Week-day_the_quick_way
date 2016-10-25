@@ -5,11 +5,17 @@ Just enter the date as y m d separated by spaces.
 
 It gives out the day of the week (Sat - Fri) the date falls on!
 
-The formula should in principle haven been applied without the statement
+In principle the formula
+
+3\*(int)((9\*m-8)/10) - (int)(abs(2\*m-4)/5) + (int)(5\*y/4) - (int)(y/100) + (int)(y/400) + (((y%4==0)?1:0) - ((y%100==0)?1:0) + ((y%400==0)?1:0))\*((m\<3)?1:0)
+
+should be applied without the statement
 
 y=y%400
 
 But the key is, that if y were changed by a multiple of 400 this formula's result changes by an integer multiple of 497 which in turn is a multiple of 7, giving the same day of the week! Thus we apply the formula without it!
+
+Once we do this, the term (int)(y/400) which is the floor vanishes because y is between 0 and 399 inclusive.
 
 This formula is based on the designation
 
