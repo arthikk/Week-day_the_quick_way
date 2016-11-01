@@ -6,7 +6,7 @@
 main()
 { clrscr();
   int y,m,d,day;
-  char a[7]={"Saturday","Sunday","Monday","Tuesday","Wednesday","Thursday","Friday"}
+  char a[7]={"Saturday","Sunday","Monday","Tuesday","Wednesday","Thursday","Friday"};
  cout<<"Enter year, month, date separated by spaces";
  cin>>y>>m>>d;
  y=y%400;
