@@ -29,4 +29,4 @@ This formula is based on the designation
 
 <center>** weekdays.R **</center>
 
-This is a program that accepts a year, a month and a day in the week and outputs the first date in the month that falls on the weekday inputted.
+This is a program that accepts a year, a month and a day in the week and outputs the first date in the month that falls on the weekday inputted. Run the no_of_weekdays(y,m,weekday) in R with some arguments of your choice (weekday = 1-7 for Sunday-Saturday)
