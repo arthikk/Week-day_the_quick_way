@@ -1,4 +1,7 @@
 # Week-day_the_quick_way
+
+<center>** date.cpp and date.py **</center>
+
 This is a program that calculates the day of the week in a quick way.
 
 Just enter the date as y m d separated by spaces.
@@ -23,3 +26,7 @@ This formula is based on the designation
 1 mod 7 = Sunday<br>
 ...<br>
 6 mod 7 = Friday
+
+<center>** weekdays.R **</center>
+
+This is a program that accepts a year, a month and a day in the week and outputs the first date in the month that falls on the weekday inputted.
